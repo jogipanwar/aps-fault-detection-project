@@ -1,5 +1,11 @@
- 
-class DataIngestionArtifacts:...
+from dataclasses import dataclass
+
+
+class DataIngestionArtifacts:
+    feature_store_file_path:str
+    train_file_path:str
+    test_file_path:str
+
 class DataValidationArtifacts:...
 class DataTransformationArtifacts:...
 class ModelTrainerArtifacts:...
