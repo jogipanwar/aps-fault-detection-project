@@ -1,0 +1,14 @@
+[ 2023-01-01 20:33:01,782 ] 9 root - INFO - Reading Data from Database: aps and collection: sensor
+[ 2023-01-01 20:33:05,193 ] 11 root - INFO - Found columns: Index(['_id', 'class', 'aa_000', 'ab_000', 'ac_000', 'ad_000', 'ae_000',
+       'af_000', 'ag_000', 'ag_001',
+       ...
+       'ee_002', 'ee_003', 'ee_004', 'ee_005', 'ee_006', 'ee_007', 'ee_008',
+       'ee_009', 'ef_000', 'eg_000'],
+      dtype='object', length=172)
+[ 2023-01-01 20:33:05,194 ] 14 root - INFO - Row and columns
+[ 2023-01-01 20:33:05,194 ] 26 root - INFO - Save data in feature store
+[ 2023-01-01 20:33:05,750 ] 30 root - INFO - Create feature store folder if not available
+[ 2023-01-01 20:33:05,751 ] 33 root - INFO - Save df to feature store folder
+[ 2023-01-01 20:33:08,293 ] 38 root - INFO - split dataset into train and test set
+[ 2023-01-01 20:33:08,836 ] 42 root - INFO - create dataset directory folder if not available
+[ 2023-01-01 20:33:08,836 ] 47 root - INFO - Save df to feature store folder
