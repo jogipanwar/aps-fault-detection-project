@@ -1,5 +1,6 @@
 README.md
 setup.py
+<<<<<<< HEAD
 sensor/__init__.py
 sensor/config.py
 sensor/exception.py
@@ -21,3 +22,9 @@ sensor/entity/config_entity.py
 sensor/pipelines/__init__.py
 sensor/pipelines/training_pipeline.py
 sensor/utils/__init__.py
+=======
+sensor.egg-info/PKG-INFO
+sensor.egg-info/SOURCES.txt
+sensor.egg-info/dependency_links.txt
+sensor.egg-info/top_level.txt
+>>>>>>> ef5135d... day1
