@@ -80,19 +80,19 @@ class DataValidation:
 
                 # Null Hypothesis: Both Column data drawn from same distribution
                 base_data,current_data = base_df[base_column],current_df[base_column]
-                logging.info(f"base column name: {base_column}")
+               ## logging.info(f"base column name: {base_column}")
                 same_distribution = ks_2samp(base_data, current_data)
 
                 if same_distribution.pvalue>0.05:
                     #we are accepting null Hypothesis
                     drift_report[base_column] = {
-                        "pvalue": same_distribution.pvalue,
+                        "pvalue": float(same_distribution.pvalue),
                         "same_distribution": True
                     }
                     #same distribution
                 else:
                     drift_report[base_column] = {
-                        "pvalue": same_distribution.pvalue,
+                        "pvalue": float(same_distribution.pvalue),
                         "same_distribution": False
                     #diffrent distribution
                     }
