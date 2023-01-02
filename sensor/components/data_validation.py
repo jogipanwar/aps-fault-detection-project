@@ -79,7 +79,7 @@ class DataValidation:
             for base_column in base_columns:
 
                 # Null Hypothesis: Both Column data drawn from same distribution
-                base_data,current_data = base_df[base_column],current_df[base_columns]
+                base_data,current_data = base_df[base_column],current_df[base_column]
                 logging.info(f"base column name: {base_column}")
                 same_distribution = ks_2samp(base_data, current_data)
 
